@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
 
 class OnlineRadioApp extends StatefulWidget {
+  const OnlineRadioApp({super.key});
+
   @override
   _OnlineRadioAppState createState() => _OnlineRadioAppState();
 }
@@ -78,7 +80,7 @@ class _OnlineRadioAppState extends State<OnlineRadioApp> {
 }
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     home: OnlineRadioApp(),
   ));
 }
